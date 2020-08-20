@@ -1,0 +1,14 @@
+﻿<Window x:Class="FlyingCat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlyingCat"
+        mc:Ignorable="d"
+        Title="CatsGonnaFly" Height="450" Width="300">
+    <Grid>
+        <MediaElement x:Name="giphy_heaven"  Source="C:\Users\Radagast\source\repos\FlyingCat\giphy_heaven.gif"  UnloadedBehavior="Manual" Stretch="None" MediaEnded="giphy_heaven_MediaEnded_1"/>
+        <Image x:Name="cool_white_cat_softcut_jpeg" Source="cool_white_cat_softcut" Margin="101,214,85,122"/>
+        <Image x:Name="cool_white_cat_softcut_jpg" Margin="112,248,105,93" Source="cool_white_cat_softcut.jpg" Stretch="Fill"/>
+    </Grid>
+</Window>
